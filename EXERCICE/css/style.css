@@ -1,0 +1,104 @@
+
+
+body
+{
+	background-color: #223d11;
+	font-family: Arial,sans-serif;
+	background-image:url('../images/informatique.png');
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+.myform
+{
+	position: relative;
+	top:100px;
+	animation-name: myform;
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
+}
+
+.liste1
+{
+	background-color: white;
+	position: relative;
+	border-radius:7px;
+	top:50px;
+	left: 50px;
+	width: 500px;
+	height: 500px;
+	padding: 50px;
+}
+.liste h1
+{
+	text-align: center;
+	color: white;
+}
+.liste1 h1
+{
+	display: block;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.liste1 a
+{
+	position: relative;
+	top: 20px;
+	width: 100%;
+}
+
+table
+{
+	background-color: rgba(255,255,255,0.6);
+	font-size:20px;
+
+
+}
+
+@keyframes myform{
+	from{top:-200px;}
+	to{top:200px;}
+}
+
+.heading
+{
+	color:white;
+	position: relative;
+	top: 200px;
+	animation-name: inscrit;
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
+}
+
+@keyframes inscrit{
+	from{left:-300px;}
+	to{left:20px;}
+}
+.myform
+{
+	border:2px solid white;
+	background-color: white;
+	border-radius: 5px;
+	padding-top: 15px;
+	font-size:20px;
+}
+
+.myform .row .col-md-12
+{
+	margin-bottom: 10px;
+}
+
+button[type="submit"]
+{
+	background-color: #2252ff;
+	color:white;
+}
+
+.form-control
+{
+	font-size:18px;
+	padding: 10px;
+	height: 50px;
+	
+}
